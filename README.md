@@ -4,8 +4,9 @@ This repo contains files for the subject adversarial network which will be publi
 It depends on the library dnn-lib.
 
 The architecture of the network is as follows:
-<img href="arch.png" alt="network architecture">
-It is a little varied due to avoid infringing the copyright of the journal, since all related copyright is transferred.
+<img src="arch.png" alt="network architecture" height="300" width="700">
+
+It varies a little due to avoid infringing the copyright of the journal, since all related copyright is transferred.
 
 The paper contains three experiments, so the corresponding codes reside in three folders.
 
