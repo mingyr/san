@@ -1,0 +1,2 @@
+python train_adaptor.py --data_dir=mnist --output_dir=adaptor --gpus=0
+python inspect_dist.py --data_file=mnist/mnist.tfr --output_dir=adaptor
