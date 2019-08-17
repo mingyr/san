@@ -18,6 +18,8 @@
 import tensorflow as tf
 from tensorflow.python.platform import flags
 
+# might contains dangling configuration entries
+
 # begin of MNIST data specification
 
 flags.DEFINE_integer('img_height', 28, 'number of classes to classify.')

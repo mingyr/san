@@ -15,6 +15,7 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 tf.app.flags.DEFINE_string('data_file', '', 'data file')
 tf.app.flags.DEFINE_integer('inspect_size', 14780, 'number of samples for testing')
 
+
 def main(unused_argv):
 
     if FLAGS.data_file == '' or not os.path.isfile(FLAGS.data_file):

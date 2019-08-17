@@ -141,7 +141,7 @@ def test_adaptor():
     input_ = Input(32, [FLAGS.img_height, FLAGS.img_width])
     adaptor = Adaptor(FLAGS.num_filters)
 
-    inputs, labels = input_('/data/yuming/eeg-processed-data/mnist/mnist.tfr') 
+    inputs, labels = input_('mnist/mnist.tfr') 
     outputs = adaptor(inputs)
 
     with tf.Session() as sess:
@@ -162,7 +162,7 @@ def test_mapper():
     adaptor = Adaptor(FLAGS.num_filters)
     mapper = Mapper()
 
-    inputs, labels = input_('/data/yuming/eeg-processed-data/mnist/mnist.tfr')
+    inputs, labels = input_('mnist/mnist.tfr')
     outputs = adaptor(inputs)
     outputs = mapper(outputs)
 
@@ -198,7 +198,4 @@ if __name__ == '__main__':
     # test_mapper()
 
     test_discriminator()
-
-    
-
 

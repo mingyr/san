@@ -69,7 +69,7 @@ class Input(snt.AbstractModule):
 if __name__ == '__main__':
 
     input_ = Input(64, [28, 28])
-    images, labels = input_('/data/yuming/eeg-processed-data/mnist/mnist.tfr')
+    images, labels = input_('mnist/mnist.tfr')
 	
     with tf.Session() as sess:
 
@@ -83,5 +83,3 @@ if __name__ == '__main__':
             print(images_val.shape)
 
             print(labels_val)
-
-
