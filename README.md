@@ -1,5 +1,5 @@
 # san
-This repo contains files for the subject adversarial network which is published on Applied Soft Computing.
+This repo contains files for the subject adaptation network which is published on Applied Soft Computing.
 
 It depends on the library dnn-lib.
 
