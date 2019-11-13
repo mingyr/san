@@ -21,6 +21,6 @@ Some readers made some enquiry about experiment 3, and the code is quickly refac
 1. The dataset is recently made public by the collaberating partners (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5712810/), and Prof. Dongrui shares the code for data preparation (preprocessBA_unbalanced.m). The script for generating the tfrecords are included as well, but may be a little messy.
 
 2. All the network operations in refactored code is from the 1D perspective, so the configuration table is like as in the following image: 
-<img src="conf3.png" alt="network architecture" height="200" width="350">
+<img src="conf3.png" alt="configuration 3" height="400" width="800">
 
 (The uploading might extend some time due to the need for code cleanup.)
